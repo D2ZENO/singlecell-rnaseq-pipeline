@@ -1,0 +1,6 @@
+CellID,Condition,Batch
+cell1,Treated,Batch1
+cell2,Treated,Batch1
+cell3,Control,Batch2
+cell4,Control,Batch2
+cell5,Treated,Batch1
