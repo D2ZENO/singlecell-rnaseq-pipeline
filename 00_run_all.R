@@ -1,0 +1,5 @@
+source("scripts/01_qc_filtering.R")
+source("scripts/02_normalization_clustering.R")
+source("scripts/03_differential_expression.R")
+if (do_trajectory) source("scripts/04_trajectory_inference.R")
+if (do_annotation) source("scripts/05_annotation.R")
