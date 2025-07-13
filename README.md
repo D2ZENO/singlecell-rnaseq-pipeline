@@ -1,8 +1,8 @@
-Single-Cell RNA-seq Analysis Pipeline (R-Studio)
+##Single-Cell RNA-seq Analysis Pipeline (R-Studio)
 
 This repository contains a fully modular and scalable pipeline to analyze single-cell RNA sequencing (scRNA-seq) data using RStudio. Built primarily using **Seurat**, **Monocle 3**, and **Azimuth**, it supports any tissue, species, or cell type and is designed for automation and reproducibility.
 
- Features
+ ##Features
 
 - ✅ Works with any species
 - ✅ QC, normalization, dimensionality reduction, clustering
@@ -12,7 +12,7 @@ This repository contains a fully modular and scalable pipeline to analyze single
 - ✅ Batch-mode support
 - ✅ User-friendly configuration in `config.R`
 
-📁 Folder Structure
+##📁 Folder Structure
 
 ```
 singlecell-rnaseq-pipeline/
@@ -26,7 +26,7 @@ singlecell-rnaseq-pipeline/
 └── README.md          # Documentation
 ```
 
-⚙️ Requirements
+##⚙️ Requirements
 
 ```r
 install.packages(c("Seurat", "tidyverse"))
@@ -34,7 +34,7 @@ devtools::install_github("satijalab/seurat-wrappers")
 BiocManager::install(c("monocle3", "SingleR", "SummarizedExperiment"))
 ```
 
-🧬 How to Run
+##🧬 How to Run
 
 1. Add your 10X or .h5 data to `data/`
 2. (Optional) Add `sample_metadata.csv` to `metadata/`
